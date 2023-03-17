@@ -1,0 +1,25 @@
+---
+title: "Vectors"
+output: html_notebook
+---
+
+These are the most basic data objects in R. You can distinguish a total of six atomic types and use them in the most efficient way according to your current situation.
+
+Atomic types: 1. Character 2. Logical 3. Integer 4. Double 5. Complex 6. Raw
+
+Let's create a small script to demonstrate each of these.
+
+```{r}
+print("welcome")
+print(3.14)
+print(100L)
+print(FALSE)
+print(10+3i)
+print(charToRaw('atomic raw'))
+```
+
+Executing them will result in the following output.
+
+```{r}
+
+```
